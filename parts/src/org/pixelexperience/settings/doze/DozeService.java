@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2015 The CyanogenMod Project
- *               2017-2018 The LineageOS Project
+ *               2017-2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,6 +24,9 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.IBinder;
 import android.util.Log;
+
+import org.pixelexperience.settings.sensors.PickupSensor;
+import org.pixelexperience.settings.sensors.ProximitySensor;
 
 public class DozeService extends Service {
     private static final String TAG = "DozeService";
