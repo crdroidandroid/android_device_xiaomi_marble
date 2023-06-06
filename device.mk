@@ -119,7 +119,6 @@ PRODUCT_PACKAGES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
-    init.recovery.usb.rc \
     init.qcom.rc
 
 
