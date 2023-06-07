@@ -110,7 +110,8 @@ include $(DEVICE_PATH)/configs/properties/default.mk
 # RIL
 PRODUCT_PACKAGES += \
     Ims \
-    QtiTelephony
+    QtiTelephony \
+    qti-telephony-common
 
 # Perf
 PRODUCT_PACKAGES += \
