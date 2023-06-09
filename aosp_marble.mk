@@ -25,14 +25,11 @@ $(call inherit-product, device/xiaomi/marble/device.mk)
 ## Device identifier
 PRODUCT_DEVICE := marble
 PRODUCT_NAME := aosp_marble
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 12 Turbo
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_MODEL := Redmi Note 12 Turbo
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME="marble"
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="marble-user 13 SKQ1.221022.001 V14.0.19.0.TMRCNXM release-keys"
-
-BUILD_FINGERPRINT := Xiaomi/marble/marble:13/SKQ1.221022.001/V14.0.19.0.TMRCNXM:user/release-keys
