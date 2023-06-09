@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.dirac;
+package org.pixelexperience.settings.dirac;
 
 import android.media.audiofx.AudioEffect;
 

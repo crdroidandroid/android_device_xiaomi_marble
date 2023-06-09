@@ -93,6 +93,12 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.kl \
     $(DEVICE_PATH)/configs/keylayout/uinput-fortsense.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fortsense.kl
 
+# PE overlays
+PRODUCT_PACKAGES += \
+    ApertureResOverlay \
+    FrameworksResOverlayCustom \
+    SettingsOverlayCustom
+
 # Overlays
 PRODUCT_PACKAGES += \
     AospWifiResOverlay \
@@ -106,9 +112,6 @@ PRODUCT_PACKAGES += \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon
-
-PRODUCT_PACKAGES += \
-    ApertureResOverlay
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
