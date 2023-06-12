@@ -6,5 +6,5 @@
      package="org.pixelexperience.overlay.marble">
      <overlay android:targetPackage="android"
           android:isStatic="true"
-          android:priority="200" />
+          android:priority="800" />
 </manifest>
