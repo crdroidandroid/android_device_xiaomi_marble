@@ -102,20 +102,20 @@ PRODUCT_PACKAGES += \
 
 # PE overlays
 PRODUCT_PACKAGES += \
-    ApertureResOverlay \
-    FrameworksResOverlayCustom \
-    SettingsOverlayCustom
+    ApertureResOverlayMarble \
+    FrameworksResOverlayMarbleCustom \
+    SettingsOverlayMarbleCustom
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AospWifiResOverlay \
+    AospWifiResOverlayMarble \
     CarrierConfigResCommon \
-    CarrierConfigResOverlay \
+    CarrierConfigResOverlayMarble \
     FrameworksResCommon \
-    FrameworksResOverlay \
-    SettingsOverlay \
+    FrameworksResOverlayMarble \
+    SettingsOverlayMarble \
     SettingsResCommon \
-    SystemUIOverlay \
+    SystemUIOverlayMarble \
     SystemUIResCommon \
     TelecommResCommon \
     TelephonyResCommon \

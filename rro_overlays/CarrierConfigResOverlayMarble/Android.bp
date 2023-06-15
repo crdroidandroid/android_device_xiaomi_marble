@@ -5,6 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworksResOverlay",
+    name: "CarrierConfigResOverlayMarble",
     product_specific: true,
+    aaptflags: ["--keep-raw-values"],
 }
