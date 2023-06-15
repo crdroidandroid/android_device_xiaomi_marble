@@ -110,6 +110,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AospWifiResOverlay \
     CarrierConfigResCommon \
+    CarrierConfigResOverlay \
     FrameworksResCommon \
     FrameworksResOverlay \
     SettingsOverlay \
