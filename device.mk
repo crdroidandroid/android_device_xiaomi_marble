@@ -121,6 +121,9 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResOverlayMarble \
     SettingsOverlayMarble \
+    SettingsProviderOverlayMarbleGlobal \
+    SettingsProviderOverlayMarbleIndia \
+    SettingsProviderOverlayMarbleChina \
     SettingsResCommon \
     SystemUIOverlayMarble \
     SystemUIResCommon \
