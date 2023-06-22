@@ -52,7 +52,7 @@
     <string name="dirac_headset_bluetooth_collar">小米蓝牙项圈耳机</string>
     <string name="dirac_headset_bluetooth_linefree">小米蓝牙耳机</string>
     <string name="dirac_headset_redmi_earphones">红米耳机</string>
-    <string name="dirac_headset_dual_driver_in_ear">小米双单元耳机（印度版）</string>
+    <string name="dirac_headset_dual_driver_in_ear">小米双单元耳机 (印度版)</string>
 
     <!-- Dirac settings: Equalizer presets -->
     <string name="dirac_preset_default">默认</string>
@@ -80,6 +80,17 @@
     <string name="music_headset_scenario_music">音乐</string>
     <string name="music_headset_scenario_video">视频</string>
     <string name="music_headset_scenario_vocal">人声</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">温控配置</string>
+    <string name="thermal_summary">调整每个应用使用的温控文件以获得最体验</string>
+    <string name="thermal_default">默认</string>
+    <string name="thermal_benchmark">性能</string>
+    <string name="thermal_browser">浏览器</string>
+    <string name="thermal_camera">相机</string>
+    <string name="thermal_dialer">电话</string>
+    <string name="thermal_gaming">游戏</string>
+    <string name="thermal_streaming">流媒体</string>
 
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">扬声器清理</string>
