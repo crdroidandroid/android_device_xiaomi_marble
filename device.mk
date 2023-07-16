@@ -16,6 +16,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Call the proprietary setup.
 $(call inherit-product, vendor/xiaomi/marble/marble-vendor.mk)
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/marble-miuicamera/products/miuicamera.mk)
+
 # Enable updating of APEXes.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
