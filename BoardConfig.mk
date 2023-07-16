@@ -8,7 +8,7 @@
 -include vendor/xiaomi/marble/BoardConfigVendor.mk
 
 # Inherit from proprietary files for miuicamera
--include vendor/xiaomi/sweet-miuicamera/products/board.mk
+-include vendor/xiaomi/marble-miuicamera/products/board.mk
 
 # A/B
 AB_OTA_UPDATER := true
