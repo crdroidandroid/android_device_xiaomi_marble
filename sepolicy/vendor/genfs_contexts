@@ -17,6 +17,11 @@ genfscon sysfs /devices/platform/soc/soc:goodix_fp                              
 genfscon sysfs /devices/platform/soc/soc:fingerprint_goodix                     u:object_r:vendor_sysfs_fingerprint:s0
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc                        u:object_r:vendor_sysfs_fingerprint:s0
 
+# Sensor
+genfscon sysfs /devices/virtual/touch/touch_dev/palm_sensor                     u:object_r:vendor_sysfs_palm_sensor:s0
+genfscon sysfs /sys/class/touch/touch_dev/partial_diff_data                     u:object_r:sysfs_touchpanel:s0
+genfscon sysfs /sys/class/touch/touch_dev/palm_sensor                           u:object_r:sysfs_touchpanel:s0
+
 # Suspend
 genfscon sysfs /devices/platform/soc/3000000.remoteproc-adsp/remoteproc/remoteproc2/3000000.remoteproc-adsp:glink-edge/3000000.remoteproc-adsp:glink-edge.adsp_apps.-1.-1/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-3/3-005a/wakeup u:object_r:sysfs_wakeup:s0
