@@ -425,6 +425,7 @@ PRODUCT_PACKAGES += \
 
 # Perf
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.3 \
     vendor.qti.hardware.perf@2.3.vendor
 
 # Power
@@ -455,11 +456,6 @@ PRODUCT_PACKAGES += \
     Ims \
     QtiTelephony \
     qti-telephony-common
-
-# Perf
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.3 \
-    vendor.qti.hardware.perf@2.3.vendor
 
 # Rootdir
 PRODUCT_PACKAGES += \
