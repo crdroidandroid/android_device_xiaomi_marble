@@ -1,3 +1,5 @@
+# Device proprietary files - from marble MIUI V14.0.7.0.TMRMIXM package, unless pinned
+
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_acdb_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp
