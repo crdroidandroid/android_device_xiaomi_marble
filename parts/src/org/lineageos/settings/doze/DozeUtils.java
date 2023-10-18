@@ -115,8 +115,7 @@ public final class DozeUtils {
         return PreferenceManager.getDefaultSharedPreferences(context)
                 .getBoolean(gesture, false);
     }
-
-    
+   
     public static boolean isHandwaveGestureEnabled(Context context) {
         return isGestureEnabled(context, GESTURE_HAND_WAVE_KEY);
     }
@@ -127,4 +126,5 @@ public final class DozeUtils {
     
     public static boolean sensorsEnabled(Context context) {
         return isHandwaveGestureEnabled(context) || isPocketGestureEnabled(context);
+    }    
 }
