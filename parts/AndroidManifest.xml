@@ -190,6 +190,11 @@
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
         </service>
+        
+        <service
+            android:name=".doze.PocketService"
+            android:permission="PocketService">
+        </service>
 
     </application>
 </manifest>
