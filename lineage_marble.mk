@@ -7,8 +7,14 @@
 # Inherit from marble device
 $(call inherit-product, device/xiaomi/marble/device.mk)
 
-# Inherit from common lineage configuration
+# Inherit from common CrDroid configuration
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_BLUR := true
+TARGET_DISABLE_EPPE := true
+TARGET_SUPPORTS_64_BIT_APPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := lineage_marble
 PRODUCT_DEVICE := marble
